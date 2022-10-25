@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background: black;
+    color: white;
+}
+
+/* ********************** */
+
+/* Todo Style Start */
+
+#TodoApp {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+
+
+#input {
+    margin-top: 10px;
+    width: 23rem;
+    height: 2rem;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#btnSubmit {
+    height: 2.4rem;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    background-color: #e5137f;
+    border-radius: 8px;
+
+}
+
+#allTodoDiv {
+    display: flex;
+}
+
+/* #todoTable {
+    display: none;
+} */
+
+#TodoList>table {
+    padding-top: 20px;
+    width: 90%;
+
+}
+
+th,
+td {
+    border: 1px solid wheat;
+    height: 30px;
+}
+
+th {
+    background: #e5137f;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+.btndel {
+
+    margin-left: 28%;
+    border-radius: 4px;
+    padding: 5px;
+    background: red;
+    border-style: none;
+}
+
+.btnSt {
+    margin-left: 28%;
+    border-radius: 4px;
+    padding: 5px;
+    background: gray;
+    border-style: none;
+}
+
+#todoName {
+    background: white;
+    color: black;
+}

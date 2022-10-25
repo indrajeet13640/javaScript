@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background: black;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e5137f;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-log ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#nav-log ul a {
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+
+/* header Ennd */
